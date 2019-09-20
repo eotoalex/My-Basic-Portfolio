@@ -1,0 +1,225 @@
+* {
+    box-sizing:border-box;
+}
+
+header {
+    background-color:white;
+    
+     
+    border-bottom: 3px solid grey;  
+}
+
+#block1{
+    background-color:pink;
+    height:480px;
+    width: 960px;
+    margin:30px auto;
+    display:block; 
+}
+
+#to-be-centered{
+    height:480px;
+    width: 960px;
+    margin:auto 90px;
+    display:block; 
+    
+    }
+
+#portfolio-block {
+    background-color:pink;
+    height:670px;
+    width: 960px;
+    margin:30px auto;
+    display:block; 
+}
+
+ #contact-header {
+    background-color:#4aaaa5;
+    color:white;
+    font-size:20px;
+    margin:0 955px 0 160px;
+    
+    padding: 7px 0 .5px 64px;
+    width:200px;
+    font-family: 'Vollkorn SC', serif;
+}
+
+h1 {
+    margin: 30px 0 0 0;
+    padding: 20px;
+    border-bottom: 3px solid grey;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+
+#name{
+    background-color:#4aaaa5;
+    color:white;
+    font-size:25px;
+    margin:0 955px 0 0px;
+    padding: 7px 30px .5px 45px;
+    width:200px;
+    font-family: 'Vollkorn SC', serif;
+
+}
+
+#contact-header {
+    background-color:#4aaaa5;
+    color:white;
+    font-size:25px;
+    margin:0 955px 0 0px;
+    margin-bottom: 3px solid grey;
+    padding: 7px 0 .5px 64px;
+    width:200px;
+}
+
+#portfolio {
+    background-color:#4aaaa5;
+    color:white;
+    font-size:25px;
+    margin:0 955px 0 0px;
+    padding: 7px 0 .5px 50px;
+    width:200px;
+    font-family: 'Vollkorn SC', serif;
+}
+
+#img-puddle {
+    padding:10px;
+    height:200px;
+    width:200px;
+     
+ }
+
+#black-hole{
+    padding:10px;
+    height:200px;
+    width:200px;
+    position: relative;
+    left:288px;
+    bottom:200px;
+}
+
+#bear-image{
+    padding:10px;
+    height:200px;
+    width:100px;
+    position:relative;
+    bottom:207px;
+}
+
+#light-bulb-head {
+    padding:10px;
+    height:200px;
+    width:100px;
+    position:relative;
+    bottom:255px;
+}
+
+#wip-hair{
+    padding:10px;
+    height:200px;
+    width:100px;
+    position:relative;
+    bottom:607px;
+    left:376px;
+}
+
+#pregnant-in-water {
+    padding:10px;
+    height:200px;
+    width:100px;
+    position:relative;
+    bottom:610px;
+    left:235px;
+
+}
+
+#f-right{
+    float:right;
+    margin:auto;
+    padding: 50px 10px 0 0;
+    font-size:22px;
+    font-family: 'Vollkorn SC', serif;
+    
+
+}
+
+body {
+  background-image:url(images/pattern.jpg);
+
+
+}
+
+#Alex-Man-image{
+    height: 200px;
+    width: 200px;
+    float:left;
+    margin: 10px;
+}
+
+
+
+#about-me-info {
+    font-family: 'Libre Baskerville', serif;
+    margin: 10px;
+    padding: 0 0 0 0;
+    line-height:20px;
+    font-family: 'Vollkorn SC', serif;
+}
+
+
+
+#contact-block {
+    background-color:pink;
+    height:480px;
+    width: 960px;
+    margin:auto;
+    display:block;
+}
+
+.contact-info {
+    padding: 0 0 5px 0;
+    margin:auto;
+    display:block;
+    width:333px;
+}
+
+#message-box {
+padding: 0 0 100px 0;
+margin: auto;
+
+display:block;
+width:333px;
+
+
+}
+
+.p-tag {
+    padding: 0 0 0 315.5px;
+    
+}
+
+#footer {
+    border-top: 8px;
+    color: #4aaaa5;
+}
+
+a {
+    color:#4aaaa5;
+}
+
+p {
+    font-family: 'Vollkorn SC', serif;
+}
+
+.inner-div-label{
+    background:blue;
+    width:50px;
+    height:50px;
+    padding:45px;
+}
+
+
+
+
