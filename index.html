@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
 
-    <!-- Links to the css page -->
-<link rel="stylesheet" href="assets/style.css">
+    
 
 <!-- Links to Font -->
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Vollkorn+SC&display=swap" rel="stylesheet">
+
+<!-- Link to Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- Links to the css page -->
+<link rel="stylesheet" href="assets/reset.css">    
+<link rel="stylesheet" href="assets/style.css">
+
+
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,37 +23,101 @@
 <title>Home</title>
 
 <section id=to-be-centered>
-<header>
-    <p id="f-right"><a href="index.html">About</a></p>
 
-    <p id="f-right"><a href="portfolio.html">Portfolio</a></p>
-
-    <p id="f-right"><a href="contact.html">Contact</a></p>
-</header>
 <header>
-        <div id="name"><p>Alex Puello</p></div>
+
+    <!-- NavBar is put into a row to be modified. -->
+    
+  
+        
+    <div class="row">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-md-5"  id="name"><p>Alex Puello</p></div>
+                    <div class="col-md-5" id="nav-bar">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html"> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html"> Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                                            <!--NavBar links.-->
+
+                        <a class="dropdown-item" href="index.html">Home</a>
+                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                        <a class="dropdown-item" href="contact.html">Contact</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+        </div>
+</div>             
+
 </header>
 </head>
 
 <body>
 
-
     <div id="block1">
+<div class="row">
+
+    <div class="col">
         <h1>About Me</h1>
-
-
-
-    <img id="Alex-Man-image" src="assets/images/Alex.jpeg"
-     alt="An image of Action Man"/> 
-
-
-
-    <p id="about-me-info">There is nothing better than an exciting challenge, that tests one's creativity and work-ethic. After watching my old roommate study Objective C a few years back, I began to dabble in Javascript, CSS, HTML, Python, PHP, JSNode and MySQL. I began committing to Github as a way to stay up to pace with these technologies, as I grew more familiar with the communities around them. Helping someone with a coding issue is just as needed as when I need help with my code, so I always try to lend a hand where I can. After all, multiple minds are always better than one confused one.  </p>
+    </div>
 
 </div>
+    <!--About me image. -->
+<div class="row">
+
+    <div class="col-md-3">
+        <img id="Alex-Man-image" src="assets/images/Alex.jpeg"
+        alt="An image of Action Man"/> 
+    </div>
+
+
+    <!--About me bio-info. -->
+<div class="col">
+    <p id="about-me-info">There is nothing better than an exciting challenge, that tests one's creativity and work-ethic. After watching my old roommate study Objective C a few years back, I began to dabble in Javascript, CSS, HTML, Python, PHP, JSNode and MySQL. I began committing to Github as a way to stay up to pace with these technologies, as I grew more familiar with the communities around them. Helping someone with a coding issue is just as needed as when I need help with my code, so I always try to lend a hand where I can. After all, multiple minds are always better than one confused one.  </p>
+</div>
+
+</div>
+
+</div>
+
 </body>
+    <!-- Footer with additional links and information.  -->
 <footer id="footer">
-    <p align= "center">Copyright 2019</p>
+        <div class="container">
+                <div class="row align-items-start">
+                  <div class="col">
+                    One of three columns
+                  </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                </div>
+                
+    <p id="footer-content" align= "center">Copyright 2019</p>
 </footer>
 </section>
 
