@@ -5,3 +5,4 @@ A portfolio about Alex Puello.
 - need to fix the grid layout for mobile devices.
 - fix the grid layout for the contact page.
 - fix the grid layout for the header.
+- add functional grids.
