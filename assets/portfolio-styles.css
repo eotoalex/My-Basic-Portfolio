@@ -1,0 +1,85 @@
+/* Grid set up for Portfolio page. */
+
+body {
+    background-image:url(images/pattern.jpg);
+         width:90%;
+        height:100%; 
+        
+        margin:auto;
+        display:block;
+         
+}
+
+#grid {
+    background-color:pink;
+    display:grid;
+    grid-template-columns: 39% 29% 35%;
+    grid-template-rows: 40% 30% 40%;
+    grid-gap: 15px;
+    padding: 15px;
+    padding-bottom:120px;
+    padding-right:100px;
+    
+    grid-template-areas: "about-me-title about-me-title  "
+                            "img info";
+                            
+                            /* width:80%;
+                            height:80%;
+                            
+                            margin:auto;
+                            display:block; */
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#000000;
+}
+
+h1 {
+    font-family: 'Vollkorn SC', serif;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.nav-link {
+    position:relative;
+    left:230px;
+    
+}
+
+
+
+
+
+
+
+
+#bear-image{
+    margin:0px;
+    
+}
+
+#wip-hair{
+    margin:0px;
+}
+
+#van-gogh-image {
+    margin:0px;
+   
+}
+
+#light-bulb-head {
+    margin:0px;
+    }
+
+#pregnant-in-water {
+    margin:0px;
+    }
+
+#jupiter {
+    margin:0px;
+
+    }
