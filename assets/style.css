@@ -99,7 +99,7 @@
     
     
 
-@media (min-width:415px) and (max-width:1030px) {
+@media (min-width:416px) and (max-width:1030px) {
    
 * {
     box-sizing:border-box;
@@ -210,7 +210,7 @@ button.navbar-toggler {
 @media (max-width:414px){
     body {
         background-image:url(images/pattern.jpg);
-        width:390px;
+        width:80%;
         
     }
 
@@ -219,15 +219,15 @@ button.navbar-toggler {
     }
 
      #grid {
-        background-color:pink;
+        background-color:yellow;
 
-        grid-template-rows: 10% 25% 25% 25% ;
+        grid-template-rows: 30%;
 
         grid-template-columns: 100%;
         
-        grid-template-areas: "about-me-title" 
+        /* grid-template-areas: "about-me-title" 
                                     "img" 
-                                    "info";
+                                    "info"; */
         width:300px;
         height:90%;
         display:flex;
@@ -249,7 +249,7 @@ button.navbar-toggler {
 }
 
 .navbar {
-    margin: auto 45px;
+    margin: auto;
     height:70px;
 }
 
@@ -265,11 +265,31 @@ button.navbar-toggler {
      
  }
 
+ #alex-puello {
+    font-size: 20px;
+    position: relative;
+    right: 334px;
+ }
 
+ button.navbar-toggler {
+    position: relative;
+    right: -190px;
+    left: -110px;
+    top: -65px;
+ }
+
+}
+
+ @media (min-width:768px) and (max-width:1024px) {
+     .navbar {
+         position:relative;
+         right:-90px;
+     }
+ }
      
      
 
-    }
+   
 
     /* Ipad viewport fix. */
 
@@ -277,6 +297,7 @@ button.navbar-toggler {
         * {
             box-sizing:border-box;
         }
+
         
         h1 {
             font-family: 'Vollkorn SC', serif;
@@ -288,11 +309,11 @@ button.navbar-toggler {
         
         body {
             background-image:url(images/pattern.jpg);
-                width:auto;
+                width:90%;
         }
         
         #grid {
-            background-color:pink;
+            background-color:orange;
             display:grid;
             grid-template-columns: 30% 70%;
             grid-template-rows: 20% auto;
@@ -358,6 +379,11 @@ button.navbar-toggler {
             left:-100px;
             
         }
+
+     .navbar {
+         position:relative;
+         right:0px;
+     }
         button.navbar-toggler {
             position: relative;
             right: -190px;
@@ -368,7 +394,7 @@ button.navbar-toggler {
          #name {
              position:relative;
              top:50px;
-             right:-100px;
+             right:0px;
          }
         
         #alex-puello {
@@ -380,7 +406,7 @@ button.navbar-toggler {
         
         }
 
-        @media (min-width:500px) and (max-width:779px) {
+        /* @media (min-width:500px) and (max-width:779px) {
         
             
                 * {
@@ -481,4 +507,4 @@ button.navbar-toggler {
                 }
                 
                 }
-        
+         */
