@@ -1,126 +1,3 @@
-* {
-    box-sizing:border-box;
-}
-
-header {
-    background-color:white;
-    
-    border: 3px solid grey; 
-    margin-bottom:20px;
-    grid-area:header;
-}
-
-#block1{
-    background-color:pink;
-    height:480px;
-    width: 960px;
-    margin:20px auto;
-    display:block; 
-}
-
-#to-be-centered{
-    height:480px;
-    width: 960px;
-    margin:auto 90px;
-    display:block; 
-    
-    }
-
-#portfolio-block {
-    background-color:pink;
-    height:750px;
-    width:960px;
-   
-    margin: auto;
-    grid-area:main;
-    
-}
-
- #contact-header {
-    background-color:#4aaaa5;
-    color:white;
-    font-size:20px;
-    margin:0 955px 0 160px;
-    
-    padding: 7px 0 .5px 64px;
-    width:200px;
-    font-family: 'Vollkorn SC', serif;
-}
-
-h1 {
-    
-    
-    margin:5px;
-    padding:5px;
-    font-family: 'Kaushan Script', cursive;
-    
-}
-
-
-#name{
-    background-color:#4aaaa5;
-    color:white;
-    font-size:25px;
-   
-    width:30px;
-    font-family: 'Vollkorn SC', serif;
-    position:relative;
-    
-
-   
-}
-
-
-#nav-bar {
-    position:relative;
-    left:420px;
-    top:10px;
-}
-
-.navbar  {
-    margin: 0 0 0 30px;
-    padding:0 100px 0 0;
-    
-    
-
-
-}
-
-#contact-header {
-    background-color:#4aaaa5;
-    color:white;
-    font-size:25px;
-    margin:0 955px 0 0px;
-    margin-bottom: 3px solid grey;
-    padding: 7px 0 .5px 64px;
-    width:200px;
-}
-
-#portfolio {
-    background-color:#4aaaa5;
-    color:white;
-    font-size:25px;
-    margin:0 955px 0 0px;
-    padding: 7px 0 .5px 50px;
-    width:200px;
-    font-family: 'Vollkorn SC', serif;
-}
-
-#img-puddle {
-   
- }
-
-#black-hole{
-   
-}
-
-#a-space-odyssey {
-    
-
-    
-    
-
-}
 
 #bear-image{
     margin:0px;
@@ -146,147 +23,487 @@ h1 {
 
 #jupiter {
     margin:0px;
+
+    }
+
+    body {
+        background-image:url(images/pattern.jpg);
+             width:80%;
+            height:100%; 
+            
+            margin:auto;
+            display:block;
+             
+    }
+
+    #grid {
+        background-color:pink;
+        display:grid;
+        grid-template-columns: 30% 70% ;
+        grid-template-rows: 30% 70% 10%;
+        grid-gap: 15px;
+        padding: 15px;
+        padding-bottom:120px;
+        
+        grid-template-areas: "about-me-title about-me-title  "
+                                "img info";
+                                
+                                /* width:80%;
+                                height:80%;
+                                
+                                margin:auto;
+                                display:block; */
     }
 
 
 
-
-
-#f-right{
-    float:right;
-    margin:auto;
-    padding: 50px 10px 0 0;
-    font-size:22px;
-    font-family: 'Vollkorn SC', serif;
+    
+        .box {
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            color:black;
+        }
+    
+        .box1{
+            
+            
+            
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            grid-area:img;
+        }
+    
+        
+        .box2{
+            
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            grid-area:info;
+            
+        }
+    
+        
+    
+        #box-about-me {
+            grid-area:about-me-title;
+           
+        }
+    
+    #about-me {
+      
+        
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    #name {
+        font-family: 'Vollkorn SC', serif;
+       position:relative;
+       left:300px;
+    }
+    
+    .nav-link {
+        position:relative;
+        left:-80px;
+        
+    }
+  
+    
+    
+    
+    #alex-puello {
+        font-size: 50px;
+        position:relative;
+        right:50px;
+       
+    }
+    
+    
+    
     
 
+@media (min-width:415px) and (max-width:1030px) {
+   
+* {
+    box-sizing:border-box;
+}
+
+h1 {
+    font-family: 'Vollkorn SC', serif;
+}
+
+div {
+    margin:20px;
 }
 
 body {
-  background-image:url(images/pattern.jpg);
-  
-
-
+    background-image:url(images/pattern.jpg);
+        width:auto;
 }
 
-#Alex-Man-image{
-    height: 200px;
-    width: 200px;
-   
-    margin: 10px; 
+#grid {
+    background-color:pink;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% auto;
+    grid-gap: 15px;
+    padding: 15px;
+    grid-template-areas: "about-me-title about-me-title  "
+                            "img info";
+                            
+                            width:80%;
+                            height:80%;
+                            
+                            margin:auto;
+                            display:block;
 }
 
 
+    .box {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        color:black;
+    }
 
-#about-me-info {
-    font-family: 'Libre Baskerville', serif;
-    margin: auto;
-    display:block;
-    padding: 0 0 0 0;
-    line-height:20px;
+    .box1{
+        grid-area:img;
+        
+        
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        
+    }
+
+    
+    .box2{
+        grid-area:info;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        
+    }
+
+    
+
+    #box-about-me {
+        grid-area:about-me-title;
+       
+    }
+
+#about-me {
+    position:relative;
+    left:150px;
+}
+
+#name {
     font-family: 'Vollkorn SC', serif;
 }
 
-
-
-#contact-block {
-    background-color:pink;
-    height:480px;
-    width: 960px;
-    margin:auto;
-    display:block;
-}
-
-.contact-info {
-    padding: 0 0 5px 0;
-    margin:auto;
-    display:block;
-    width:333px;
-}
-
-#message-box {
-padding: 0 0 100px 0;
-margin: auto;
-
-display:block;
-width:333px;
-height:150px;
-
-
-}
-
-.p-tag {
-    padding: 0 0 0 315.5px;
+.nav-link {
+    position:relative;
     
 }
+button.navbar-toggler {
+    position: relative;
+    right: -190px;
+    left: 453px;
+    top: -65px;
+ }
 
-#footer {
-    border-top: 8px;
-    color: #4aaaa5;
+ #name {
+     position:relative;
+     top:50px;
+     right:-100px;
+ }
+
+#alex-puello {
+    font-size: 30px;
+    position:relative;
+    right:50px;
+   
 }
 
-a {
-    color:#4aaaa5;
 }
 
-p {
-    font-family: 'Vollkorn SC', serif;
-}
 
-.inner-div-label{
-    background:blue;
-    width:50px;
-    height:50px;
-    padding:45px;
-}
+/* Media querie up to 414 pixels (Mobile) */
 
-/* .col {
-    flex-grow:0;
-
-} */
-
- 
-
-
-
-
-
- @media screen and (max-width: 500px) {  
-    .col {
-        width:50%;
-        flex-grow:0;
-        font-size:12px;
-        grid-gap:10px;
-        grid-template-areas:
-        "header header header header"
-        "main main main main"
+@media (max-width:414px){
+    body {
+        background-image:url(images/pattern.jpg);
+        width:390px;
         
-        "body"
-        "footer"
-
-
-        
-        
-      
     }
-} 
 
-#footer-content {
-    margin: 20px;
-    grid-area:footer;
+    div {
+        margin: 10px;
+    }
+
+     #grid {
+        background-color:pink;
+
+        grid-template-rows: 10% 25% 25% 25% ;
+
+        grid-template-columns: 100%;
+        
+        grid-template-areas: "about-me-title" 
+                                    "img" 
+                                    "info";
+        width:300px;
+        height:90%;
+        display:flex;
+        justify-self:center;
+        align-self:center;
+        margin:auto;
+        display:block;
+        
+        
+     }
+#Alex-Man-image {
+    margin:auto;
+    display:block;
 }
-p {
-    font-family: 'Vollkorn SC', serif;
-    margin:0px;
-    padding-left:29px;
+
+#about-me{
+    position:relative;
+    left:16px;
 }
 
+.navbar {
+    margin: auto 45px;
+    height:70px;
+}
+
+button.navbar-toggler {
+    position: relative;
+    right: -190px;
+    top: -55px;
+ }
+
+ #name {
+     position:relative;
+     top:10px;
+     
+ }
 
 
+     
+     
 
+    }
 
+    /* Ipad viewport fix. */
 
+    @media (min-width:768px) and (max-width:1024px) {
+        * {
+            box-sizing:border-box;
+        }
+        
+        h1 {
+            font-family: 'Vollkorn SC', serif;
+        }
+        
+        div {
+            margin:20px;
+        }
+        
+        body {
+            background-image:url(images/pattern.jpg);
+                width:auto;
+        }
+        
+        #grid {
+            background-color:pink;
+            display:grid;
+            grid-template-columns: 30% 70%;
+            grid-template-rows: 20% auto;
+            grid-gap: 15px;
+            padding: 15px;
+            grid-template-areas: "about-me-title about-me-title  "
+                                    "img info";
+                                    
+                                    width:80%;
+                                    height:80%;
+                                    
+                                    margin:auto;
+                                    display:block;
+        }
+        
+        
+            .box {
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                color:black;
+            }
+        
+            .box1{
+                grid-area:img;
+                
+                
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                
+            }
+        
+            
+            .box2{
+                grid-area:info;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                
+            }
+        
+            
+        
+            #box-about-me {
+                grid-area:about-me-title;
+                position:relative;
+                left:-150px;
+               
+            }
+        
+        #about-me {
+            position:relative;
+            left:150px;
+        }
+        
+        #name {
+            font-family: 'Vollkorn SC', serif;
+        }
+        
+        .nav-link {
+            position:relative;
+            left:-100px;
+            
+        }
+        button.navbar-toggler {
+            position: relative;
+            right: -190px;
+            left: 453px;
+            top: -65px;
+         }
+        
+         #name {
+             position:relative;
+             top:50px;
+             right:-100px;
+         }
+        
+        #alex-puello {
+            font-size: 30px;
+            position:relative;
+            right:50px;
+           
+        }
+        
+        }
 
+        @media (min-width:500px) and (max-width:779px) {
+        
+            
+                * {
+                    box-sizing:border-box;
+                }
+                
+                h1 {
+                    font-family: 'Vollkorn SC', serif;
 
+                }
+                
+                #about-me{
+                    background-color:purple;
+                    position:relative;
+                    left:0px;
+                }
+                
+                body {
+                    background-image:url(images/pattern.jpg);
+                        width:auto;
+                }
+                
+                #grid {
+                    background-color:pink;
+                    display:grid;
+                    grid-template-columns: 30% 70%;
+                    grid-template-rows: 20% auto;
+                    grid-gap: 15px;
+                    padding: 15px;
+                    grid-template-areas: "about-me-title about-me-title  "
+                                            "img info";
+                                            
+                                            width:80%;
+                                            height:80%;
+                                            
+                                            margin:auto;
+                                            display:block;
+                }
+                
+                
+                    .box {
+                        padding:5px;
+                    }
+                
+                    .box1{
+                        grid-area:img;
+                        
+                        
+                        display:flex;
+                        justify-content: center;
+                        align-items:center;
+                        
+                    }
+                
+                    
+                    .box2{
+                        grid-area:info;
+                        display:flex;
+                        justify-content: center;
+                        align-items:center;
+                        
+                    }
+                
+                    
+                
+                   .navbar{
+                       margin:auto;
+                       display:block;
+                       width:80%;
+                   }
+                
+                
+                .nav-link {
+                    position:relative;
+                    left:-100px;
+                    
+                }
+                button.navbar-toggler {
+                    position: relative;
+                    right: -190px;
+                    left: 210px;
+                    top: -65px;
+                 }
+                
+                 #name {
+                    font-family: 'Vollkorn SC', serif;
 
-
+                     position:relative;
+                     top:50px;
+                     left:50px;
+                 }
+                
+                #alex-puello {
+                    font-size: 30px;
+                    position:relative;
+                    right:50px;
+                   
+                }
+                
+                }
+        
