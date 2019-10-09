@@ -69,8 +69,13 @@ h1 {
 
 #jupiter {
     margin:0px;
+}
+#cd {
+    height:180px;
+    width:250px;
+}
 
-    }
+    
 
 @media (min-width:415px) and (max-width:1133px){
 
@@ -128,5 +133,7 @@ h1 {
     align-items:center;
     color:#000000;
 }
+
+
 
 }
