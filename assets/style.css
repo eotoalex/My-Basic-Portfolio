@@ -278,6 +278,10 @@ button.navbar-toggler {
     top: -65px;
  }
 
+ .bg-light {
+     height:150px;
+ }
+
 }
 
  @media (min-width:768px) and (max-width:1024px) {
