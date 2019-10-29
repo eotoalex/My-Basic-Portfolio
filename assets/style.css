@@ -94,6 +94,19 @@
         right:50px;
        
     }
+    #nav-headline {
+        font-size: 40px;
+        position:relative;
+        right:35px;
+        
+        font-family: 'Vollkorn SC', serif;
+       
+    }
+
+    .navbar-nav{
+        position:relative;
+        right:0px;
+    }
     
     
     
@@ -399,12 +412,14 @@ button.navbar-toggler {
              position:relative;
              top:50px;
              right:0px;
+
          }
         
-        #alex-puello {
-            font-size: 30px;
+        #nav-headline {
+            font-size: 40px;
             position:relative;
-            right:50px;
+            right:-331px;
+            font-family: 'Vollkorn SC', serif;
            
         }
         

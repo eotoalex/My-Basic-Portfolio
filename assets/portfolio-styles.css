@@ -38,11 +38,26 @@ h1 {
     align-items:center;
 }
 
+.navbar-nav{
+    position:relative;
+    right:-100px;
+}
+
+#nav-headline {
+    font-size: 40px;
+    position:relative;
+    right:-400px;
+    font-family: 'Vollkorn SC', serif;
+   
+}
+
 .nav-link {
     position:relative;
     left:230px;
     
 }
+
+
 #bear-image{
     margin:0px;
     
@@ -91,9 +106,38 @@ h1 {
  .subtitle {
      font-family:'Vollkorn SC', serif;
  }
+    @media(min-width:600px) and (max-width:966px){
+        body {
+            background-image:url(images/pattern.jpg);
+                
+                 
+        }
+        
+        #grid {
+            background-color:pink;
+            display:grid;
+            grid-template-rows: 20% 20%;
+            grid-template-columns: 50% 50%;
+            
+           
     
+    }
 
-@media (min-width:415px) and (max-width:1133px){
+    .navbar-nav{
+        position:relative;
+        right:45px;
+    }
+    #nav-headline {
+        font-size: 38px;
+        position:relative;
+        right:-249px;
+        font-family: 'Vollkorn SC', serif;
+       
+    }
+   
+    }
+
+@media (min-width:415px) and (max-width:599px){
 
     body {
         background-image:url(images/pattern.jpg);
@@ -117,9 +161,45 @@ h1 {
         padding-right:100px;
 
 }
+.navbar-nav{
+    position:relative;
+    right:-100px;
 }
 
-@media (min-width:360px) and (max-width:414px){
+#nav-headline {
+    font-size: 40px;
+    position:relative;
+    right:-400px;
+    font-family: 'Vollkorn SC', serif;
+   
+}
+
+.nav-link {
+    position:relative;
+    left:230px;
+    
+}
+#alex-puello {
+    font-size: 20px;
+    position: relative;
+    right: 334px;
+ }
+
+ .bg-light{
+     height:150px;
+ }
+
+ .nav-link{
+    font-family: 'Vollkorn SC', serif;
+ }
+
+ .subtitle {
+     font-family:'Vollkorn SC', serif;
+ }
+
+}
+
+@media (min-width:0px) and (max-width:826px){
     body {
         background-image:url(images/pattern.jpg);
              width:90%;
@@ -134,20 +214,40 @@ h1 {
         background-color:pink;
         display:grid;
         grid-template-rows: 12% ;
-        grid-template-columns: 50% ;
+        grid-template-columns: 113% ;
+        /* margin:20px */
         
-        grid-gap: 15px;
+        /* grid-gap: 15px;
         padding: 15px;
         padding-bottom:120px;
-        padding-right:100px;
+        padding-right:100px; */
 
 }
-
+/* 
 .box {
     display:flex;
     justify-content: right;
     align-items:center;
     color:#000000;
+   
+} */
+
+.navbar-nav{
+    position:relative;
+    right:60px;
+}
+
+#nav-headline {
+    font-size: 40px;
+    position:relative;
+    right:-230px;
+    font-family: 'Vollkorn SC', serif;
+   
+}
+
+.all-image{
+    display:block;
+    margin:auto;
 }
 
 
