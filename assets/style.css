@@ -467,6 +467,15 @@ button.navbar-toggler {
         
 }
  
- 
+ /* #message-box{
+    height:200px;
+ } */
 
-               
+ .p-tag{
+     margin:20px;
+ }
+
+ .box {
+     margin:20px;
+ }
+
