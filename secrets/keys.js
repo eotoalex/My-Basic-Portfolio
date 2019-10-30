@@ -1,6 +1,6 @@
 console.log("loading...");
 
-exports.bamazon_db = {
+exports.basic_portfolioDB = {
     
     hst: process.env.HOST,
     port:process.env.PORT,
