@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     loadHomePage:(req,res) => {
-        res.sendFile(path.join(__dirname,"../index.html"), (err) => {
+        res.sendFile(path.join(__dirname,"../assets/html/index.html"), (err) => {
             if(err){
                 console.log(err);
             } else {
@@ -11,7 +11,7 @@ module.exports = {
         });
     },
     loadPortfolioPage:(req, res) => {
-        res.sendFile(path.join(__dirname, "../portfolio.html"), (err) => {
+        res.sendFile(path.join(__dirname, "../assets/html/portfolio.html"), (err) => {
             if (err){
                 console.log(err);
             } else {
@@ -20,7 +20,7 @@ module.exports = {
         });
     },
     loadContactPage:(req, res) => {
-        res.sendFile(path.join(__dirname, "../contact.html"), (err) => {
+        res.sendFile(path.join(__dirname, "../assets/html/contact.html"), (err) => {
             if (err){
                 console.log(err);
             } else {

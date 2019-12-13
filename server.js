@@ -4,14 +4,9 @@ const path = require("path");
 const navBarController = require('./controller/navBarController.js');
 const PORT = process.env.PORT || 3001;
 
-// Defining middleware.
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-// app.use(express.static(path.join(__dirname ,"client/build")));
-
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
-// app.use(express.static(path.join(__dirname, "/assets/css/style.css")));
+app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get('/', navBarController.loadHomePage);
 
