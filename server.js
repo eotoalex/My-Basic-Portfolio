@@ -10,10 +10,10 @@ app.use(express.json());
 
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
-// app.use(express.static(path.join(_dirname, "client/build")))  (might need this later.)
+// app.use(express.static(path.join(__dirname, "/assets/css/style.css")));
 
 app.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname,"./index.html"), (err) => {
+    res.sendFile(path.join(__dirname,"/index.html"), (err) => {
         if(err){
             console.log(err);
         } else {
