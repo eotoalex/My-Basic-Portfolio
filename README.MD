@@ -1,6 +1,6 @@
 # Portfolio
-This is a portfolio webpage that gives a brief introduction of what got me into programming, a portfolio page that shows projects that I have worked on and am currently working on.
-[Portfolio](https://desolate-inlet-61167.herokuapp.com/)
+This is a portfolio webpage that gives a brief introduction of what got me into programming, a [Portfolio](https://desolate-inlet-61167.herokuapp.com/) page that shows projects that I have worked on and am currently working on. C
+
 
 # Technologies used include:
 * HTML
