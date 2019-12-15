@@ -8,6 +8,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "/public")));
 
+// Database here... (Contact page.)
+
 app.get('/', navBarController.loadHomePage);
 
 app.get('/portfolio', navBarController.loadPortfolioPage);
