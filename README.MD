@@ -1,5 +1,5 @@
 # Portfolio
-This is a [portfolio](https://desolate-inlet-61167.herokuapp.com/) site that I've been working on, that gives a brief introduction to how I got started in coding and my working knowledge of various web development technologies as well. This portfolio page also shows projects that I have worked on and am currently working on, located on the Portfolio page (please be patient when you click on an application, as Heroku's initial start up takes time to wake up.).
+This is my [portfolio](https://desolate-inlet-61167.herokuapp.com/) site. Here you will find a brief introduction to how I got started in coding and my working knowledge of various web development technologies. This portfolio page also shows off some projects that I have worked on and am currently working on, located on the portfolio link (please be patient when you click on an application, as Heroku's initial start up takes time to wake up.).
 
 # Technologies used include:
 * HTML
