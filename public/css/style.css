@@ -1,9 +1,9 @@
 body {
     background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-            width:80%;
-        height:100%; 
-        margin:auto;
-        display:block;      
+    width:80%;
+    height:100%; 
+    margin:auto;
+    display:block;      
 }
 
 #grid {
@@ -14,7 +14,8 @@ body {
     grid-gap: 15px;
     padding: 15px;
     padding-bottom:120px;
-    
+    border-radius:20%;
+    margin-top:2%;
     grid-template-areas: "about-me-title about-me-title  "
                             "img info";
 }
@@ -93,7 +94,7 @@ body {
     }
 
     body {
-        background-image:url(images/pattern.jpg);
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         width:auto;
     }
 
@@ -104,12 +105,10 @@ body {
         grid-template-rows: 20% auto;
         grid-gap: 15px;
         padding: 15px;
+        border-radius:20%;
+        margin-top:2%;
         grid-template-areas: "about-me-title about-me-title  "
                                 "img info";                       
-        width:80%;
-        height:80%;
-        margin:auto;
-        display:block;
     }
 
     .box {
@@ -174,7 +173,7 @@ body {
 
 @media (max-width:414px){
     body {
-        background-image:url(images/pattern.jpg);
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         width:80%; 
     }
 
@@ -186,17 +185,11 @@ body {
         /* background-color:yellow; */
         grid-template-rows: 30%;
         grid-template-columns: 100%;
+        border-radius:20%;
+        margin-top:2%;
         /* grid-template-areas: "about-me-title" 
                                     "img" 
-                                    "info"; */
-        width:300px;
-        height:90%;
-        display:flex;
-        justify-self:center;
-        align-self:center;
-        margin:auto;
-        display:block;
-        
+                                    "info"; */ 
     }
     #Alex-Man-image {
         margin:auto;
@@ -243,44 +236,40 @@ body {
     }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+/* @media (min-width:768px) and (max-width:1024px) {
      .navbar {
          position:relative;
          right:-90px;
      }
-}
+} */
      
 @media (min-width:768px) and (max-width:1024px) {
-    * {
-        box-sizing:border-box;
-    }
-
+    
     h1 {
-        font-family: 'Vollkorn SC', serif;
+        font-size: 35px;
+        position:relative;
+        right:100%;
     }
-    
-    div {
-        margin:20px;
-    }
-    
     body {
-        background-image:url(images/pattern.jpg);
-            width:90%;
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        width:80%;
+        height:100%; 
     }
     
     #grid {
+        margin-top: 2px;
         background-color:pink;
         display:grid;
-        grid-template-columns: 30% 70%;
-        grid-template-rows: 20% auto;
-        grid-gap: 15px;
-        padding: 15px;
-        grid-template-areas: "about-me-title about-me-title  "
-                                "img info";                  
-        width:80%;
-        height:80%;
-        margin:auto;
-        display:block;
+        grid-template-rows: 5% ;
+        grid-template-columns: 90% ;
+        border-radius:20%;
+        margin-top:2%;
+        grid-gap: 0px;
+        padding: 0px;
+        grid-template-areas: "about-me-title"
+                                "img "
+                                "info";
+        justify-content: center;
     }
     
     .box {
@@ -291,64 +280,58 @@ body {
     }
 
     .box1{
+        display:flex;
+        justify-content: center;
+        align-items:center;
         grid-area:img;
-        display:flex;
-        justify-content: center;
-        align-items:center;
+        padding:0px;
     }
-
+        
     .box2{
-        grid-area:info;
         display:flex;
         justify-content: center;
         align-items:center;
+        grid-area:info; 
+        padding:0;
     }
-
+    
     #box-about-me {
-        grid-area:about-me-title;
-        position:relative;
-        left:-150px;
+        align-items:center;
+        padding:0;
     }
     
     #about-me {
-        position:relative;
-        left:150px;
+        font-family: 'Vollkorn SC', serif;
     }
     
     #name {
         font-family: 'Vollkorn SC', serif;
+        position:relative;
+        left:300px;
     }
     
     .nav-link {
         position:relative;
-        left:-100px;
+        left:-80px;
     }
-
-    .navbar {
-        position:relative;
-        right:0px;
-    }
-
-    button.navbar-toggler {
-        position: relative;
-        right: -190px;
-        left: 453px;
-        top: -65px;
-        }
     
-    #name {
+    #alex-puello {
+        font-size: 30px;
         position:relative;
-        top:50px;
-        right:0px;
+        right:50px;
     }
     
     #nav-headline {
         font-size: 40px;
         position:relative;
-        right:-331px;
+        right:45px;
         font-family: 'Vollkorn SC', serif;
-        
-    }   
+    }
+    
+    .navbar-nav{
+        position:relative;
+        right:20%;
+    }
 }
 
 @media (min-width:415px) and (max-width:760px) {
