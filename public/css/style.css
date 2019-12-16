@@ -1,147 +1,116 @@
-
-/* Index page media query page */
-
-    body {
-        background-image:url(images/pattern.jpg);
-             width:80%;
-            height:100%; 
-            
-            margin:auto;
-            display:block;
-             
-    }
-
-    #grid {
-        background-color:pink;
-        display:grid;
-        grid-template-columns: 30% 70% ;
-        grid-template-rows: 30% 70% 10%;
-        grid-gap: 15px;
-        padding: 15px;
-        padding-bottom:120px;
-        
-        grid-template-areas: "about-me-title about-me-title  "
-                                "img info";
-    }
-
-
-
-    
-        .box {
-            display:flex;
-            justify-content: center;
-            align-items:center;
-            color:black;
-        }
-    
-        .box1{
-            
-            
-            
-            display:flex;
-            justify-content: center;
-            align-items:center;
-            grid-area:img;
-        }
-    
-        
-        .box2{
-            
-            display:flex;
-            justify-content: center;
-            align-items:center;
-            grid-area:info;
-            
-        }
-    
-        
-    
-        #box-about-me {
-            grid-area:about-me-title;
-           
-        }
-    
-    #about-me {
-      
-        
-        font-family: 'Vollkorn SC', serif;
-    }
-    
-    #name {
-        font-family: 'Vollkorn SC', serif;
-       position:relative;
-       left:300px;
-    }
-    
-    .nav-link {
-        position:relative;
-        left:-80px;
-        
-    }
-  
-    
-    
-    
-    #alex-puello {
-        font-size: 50px;
-        position:relative;
-        right:50px;
-       
-    }
-    #nav-headline {
-        font-size: 40px;
-        position:relative;
-        right:35px;
-        
-        font-family: 'Vollkorn SC', serif;
-       
-    }
-
-    .navbar-nav{
-        position:relative;
-        right:0px;
-    }
-    
-    
-    
-    
-
-@media (min-width:416px) and (max-width:1030px) {
-   
-* {
-    box-sizing:border-box;
-}
-
-h1 {
-    font-family: 'Vollkorn SC', serif;
-}
-
-div {
-    margin:20px;
-}
-
 body {
-    background-image:url(images/pattern.jpg);
-        width:auto;
+    background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+            width:80%;
+        height:100%; 
+        margin:auto;
+        display:block;      
 }
 
 #grid {
     background-color:pink;
     display:grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 20% auto;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 30% 70% 10%;
     grid-gap: 15px;
     padding: 15px;
+    padding-bottom:120px;
+    
     grid-template-areas: "about-me-title about-me-title  "
                             "img info";
-                            
-                            width:80%;
-                            height:80%;
-                            
-                            margin:auto;
-                            display:block;
 }
 
+.box {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:black;
+}
+
+.box1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    grid-area:img;
+}
+    
+.box2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    grid-area:info; 
+}
+
+#box-about-me {
+    grid-area:about-me-title;
+    
+}
+
+#about-me {
+    font-family: 'Vollkorn SC', serif;
+}
+
+#name {
+    font-family: 'Vollkorn SC', serif;
+    position:relative;
+    left:300px;
+}
+
+.nav-link {
+    position:relative;
+    left:-80px;
+}
+
+#alex-puello {
+    font-size: 50px;
+    position:relative;
+    right:50px;
+}
+
+#nav-headline {
+    font-size: 40px;
+    position:relative;
+    right:35px;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.navbar-nav{
+    position:relative;
+    right:0px;
+}
+    
+@media (min-width:416px) and (max-width:1030px) {
+   
+    * {
+        box-sizing:border-box;
+    }
+
+    h1 {
+        font-family: 'Vollkorn SC', serif;
+    }
+
+    div {
+        margin:20px;
+    }
+
+    body {
+        background-image:url(images/pattern.jpg);
+        width:auto;
+    }
+
+    #grid {
+        background-color:pink;
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 20% auto;
+        grid-gap: 15px;
+        padding: 15px;
+        grid-template-areas: "about-me-title about-me-title  "
+                                "img info";                       
+        width:80%;
+        height:80%;
+        margin:auto;
+        display:block;
+    }
 
     .box {
         display:flex;
@@ -152,73 +121,61 @@ body {
 
     .box1{
         grid-area:img;
-        
-        
         display:flex;
         justify-content: center;
-        align-items:center;
-        
+        align-items:center;  
     }
 
-    
     .box2{
         grid-area:info;
         display:flex;
         justify-content: center;
         align-items:center;
-        
     }
-
-    
 
     #box-about-me {
-        grid-area:about-me-title;
-       
+        grid-area:about-me-title;  
     }
 
-#about-me {
-    position:relative;
-    left:150px;
-}
+    #about-me {
+        position:relative;
+        left:150px;
+    }
 
-#name {
-    font-family: 'Vollkorn SC', serif;
-}
+    #name {
+        font-family: 'Vollkorn SC', serif;
+    }
 
-.nav-link {
-    position:relative;
+    .nav-link {
+        position:relative;
+        
+    }
+    button.navbar-toggler {
+        position: relative;
+        right: -190px;
+        left: 453px;
+        top: -65px;
+    }
+
+    #name {
+        position:relative;
+        top:50px;
+        right:-100px;
+    }
+
+    #alex-puello {
+        font-size: 30px;
+        position:relative;
+        right:50px;
     
-}
-button.navbar-toggler {
-    position: relative;
-    right: -190px;
-    left: 453px;
-    top: -65px;
- }
-
- #name {
-     position:relative;
-     top:50px;
-     right:-100px;
- }
-
-#alex-puello {
-    font-size: 30px;
-    position:relative;
-    right:50px;
-   
-}
+    }
 
 }
-
-
-/* Media querie up to 414 pixels (Mobile) */
 
 @media (max-width:414px){
     body {
         background-image:url(images/pattern.jpg);
-        width:80%;
-        
+        width:80%; 
     }
 
     div {
@@ -227,11 +184,8 @@ button.navbar-toggler {
 
      #grid {
         /* background-color:yellow; */
-
         grid-template-rows: 30%;
-
         grid-template-columns: 100%;
-        
         /* grid-template-areas: "about-me-title" 
                                     "img" 
                                     "info"; */
@@ -243,209 +197,161 @@ button.navbar-toggler {
         margin:auto;
         display:block;
         
+    }
+    #Alex-Man-image {
+        margin:auto;
+        display:block;
+    }
+
+    #about-me{
+        position:relative;
+        left:16px;
+    }
+
+    .navbar {
+        margin: auto;
+        height:70px;
+    }
+
+    button.navbar-toggler {
+        position: relative;
+        right: -190px;
+        top: -55px;
+    }
+
+    #name {
+        position:relative;
+        top:10px;
         
-     }
-#Alex-Man-image {
-    margin:auto;
-    display:block;
+    }
+
+    #alex-puello {
+        font-size: 20px;
+        position: relative;
+        right: 334px;
+    }
+
+    button.navbar-toggler {
+        position: relative;
+        right: -190px;
+        left: -110px;
+        top: -65px;
+    }
+
+    .bg-light {
+        height:150px;
+    }
 }
 
-#about-me{
-    position:relative;
-    left:16px;
-}
-
-.navbar {
-    margin: auto;
-    height:70px;
-}
-
-button.navbar-toggler {
-    position: relative;
-    right: -190px;
-    top: -55px;
- }
-
- #name {
-     position:relative;
-     top:10px;
-     
- }
-
- #alex-puello {
-    font-size: 20px;
-    position: relative;
-    right: 334px;
- }
-
- button.navbar-toggler {
-    position: relative;
-    right: -190px;
-    left: -110px;
-    top: -65px;
- }
-
- .bg-light {
-     height:150px;
- }
-
-}
-
- @media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1024px) {
      .navbar {
          position:relative;
          right:-90px;
      }
- }
+}
      
-     
+@media (min-width:768px) and (max-width:1024px) {
+    * {
+        box-sizing:border-box;
+    }
 
-   
-
-    /* Ipad viewport fix. */
-
-    @media (min-width:768px) and (max-width:1024px) {
-        * {
-            box-sizing:border-box;
-        }
-
-        
-        h1 {
-            font-family: 'Vollkorn SC', serif;
-        }
-        
-        div {
-            margin:20px;
-        }
-        
-        body {
-            background-image:url(images/pattern.jpg);
-                width:90%;
-        }
-        
-        #grid {
-            background-color:pink;
-            display:grid;
-            grid-template-columns: 30% 70%;
-            grid-template-rows: 20% auto;
-            grid-gap: 15px;
-            padding: 15px;
-            grid-template-areas: "about-me-title about-me-title  "
-                                    "img info";
-                                    
-                                    width:80%;
-                                    height:80%;
-                                    
-                                    margin:auto;
-                                    display:block;
-        }
-        
-        
-            .box {
-                display:flex;
-                justify-content: center;
-                align-items:center;
-                color:black;
-            }
-        
-            .box1{
-                grid-area:img;
-                
-                
-                display:flex;
-                justify-content: center;
-                align-items:center;
-                
-            }
-        
-            
-            .box2{
-                grid-area:info;
-                display:flex;
-                justify-content: center;
-                align-items:center;
-                
-            }
-        
-            
-        
-            #box-about-me {
-                grid-area:about-me-title;
-                position:relative;
-                left:-150px;
-               
-            }
-        
-        #about-me {
-            position:relative;
-            left:150px;
-        }
-        
-        #name {
-            font-family: 'Vollkorn SC', serif;
-        }
-        
-        .nav-link {
-            position:relative;
-            left:-100px;
-            
-        }
-
-     .navbar {
-         position:relative;
-         right:0px;
-     }
-        button.navbar-toggler {
-            position: relative;
-            right: -190px;
-            left: 453px;
-            top: -65px;
-         }
-        
-         #name {
-             position:relative;
-             top:50px;
-             right:0px;
-
-         }
-        
-        #nav-headline {
-            font-size: 40px;
-            position:relative;
-            right:-331px;
-            font-family: 'Vollkorn SC', serif;
-           
-        }
-        
-        }
-
-
-
-
-       /* @media (min-width:360px) and (max-width:414px) {
+    h1 {
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    div {
+        margin:20px;
+    }
+    
     body {
         background-image:url(images/pattern.jpg);
-            width:80%;
-            height:80%;
-            width:auto;
-            display:block;  
-
+            width:90%;
     }
     
     #grid {
         background-color:pink;
-        display:grid;  
-        grid-template-rows: 50%;    
-        grid-template-columns: 50%;
+        display:grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 20% auto;
         grid-gap: 15px;
-        padding: 15px;   
+        padding: 15px;
+        grid-template-areas: "about-me-title about-me-title  "
+                                "img info";                  
+        width:80%;
         height:80%;
-            
+        margin:auto;
+        display:block;
     }
     
- } */
+    .box {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        color:black;
+    }
 
- @media (min-width:415px) and (max-width:760px) {
+    .box1{
+        grid-area:img;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .box2{
+        grid-area:info;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    #box-about-me {
+        grid-area:about-me-title;
+        position:relative;
+        left:-150px;
+    }
+    
+    #about-me {
+        position:relative;
+        left:150px;
+    }
+    
+    #name {
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    .nav-link {
+        position:relative;
+        left:-100px;
+    }
+
+    .navbar {
+        position:relative;
+        right:0px;
+    }
+
+    button.navbar-toggler {
+        position: relative;
+        right: -190px;
+        left: 453px;
+        top: -65px;
+        }
+    
+    #name {
+        position:relative;
+        top:50px;
+        right:0px;
+    }
+    
+    #nav-headline {
+        font-size: 40px;
+        position:relative;
+        right:-331px;
+        font-family: 'Vollkorn SC', serif;
+        
+    }   
+}
+
+@media (min-width:415px) and (max-width:760px) {
         
 }
 
@@ -461,15 +367,4 @@ button.navbar-toggler {
         
 }
  
- /* #message-box{
-    height:200px;
- } */
-
- .p-tag{
-     margin:20px;
- }
-
- .box {
-     margin:20px;
- }
 
