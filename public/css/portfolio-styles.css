@@ -19,6 +19,10 @@ body {
         margin-top:2%;
     }
 
+    .img {
+        border-radius:20%;
+    }
+
     .box {
         display:flex;
         justify-content: center;
