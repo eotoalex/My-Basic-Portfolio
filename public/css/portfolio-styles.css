@@ -1,5 +1,5 @@
 body {
-    background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=650&w=940");
          width:90%;
         height:100%; 
         margin:auto;
@@ -7,7 +7,7 @@ body {
     }
 
     #grid {
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-rows: 49% 49% 49%;
         grid-template-columns: 39% 29% 35%;
@@ -101,7 +101,7 @@ body {
         }
         
     #grid {
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-rows: 35% 35%;
         grid-template-columns: 50% 50%;
@@ -131,7 +131,7 @@ body {
     }
     
     #grid {
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-rows: 20% 20%;
         grid-template-columns: 50% 50%;
@@ -189,7 +189,7 @@ body {
     }
     
     #grid {
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-rows: 20% ;
         grid-template-columns: 113% ;

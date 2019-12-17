@@ -7,7 +7,7 @@ body {
 }
 
 #grid {
-    background-color:pink;
+    background-color:#8FBC8F;
     display:grid;
     grid-template-columns: 30% 70% ;
     grid-template-rows: 30% 70% 10%;
@@ -99,7 +99,7 @@ body {
     }
 
     #grid {
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-columns: 30% 70%;
         grid-template-rows: 20% auto;
@@ -166,9 +166,7 @@ body {
         font-size: 30px;
         position:relative;
         right:50px;
-    
     }
-
 }
 
 @media (max-width:414px){
@@ -258,7 +256,7 @@ body {
     
     #grid {
         margin-top: 2px;
-        background-color:pink;
+        background-color:#8FBC8F;
         display:grid;
         grid-template-rows: 5% ;
         grid-template-columns: 90% ;
