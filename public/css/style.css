@@ -6,6 +6,18 @@ body {
     display:block;      
 }
 
+.contact-btn{
+    color:white;
+    background-color:orange;
+    margin:auto;
+    display:block;
+}
+
+.p-tag{
+    margin:auto;
+    display:block;
+}
+
 #grid {
     background-color:#8FBC8F;
     display:grid;
