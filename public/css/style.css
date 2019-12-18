@@ -318,3 +318,38 @@ body {
 
 }
 
+@media (max-width: 412px){
+
+    body {
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        width:90%;   
+        position:relative;
+        left:0px; 
+    }
+    #grid {
+        background-color:#8FBC8F;
+        display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 20% 60%;
+        grid-gap: 15px;
+        padding: 15px;
+        border-radius:20%;
+        margin-top:2%;
+        grid-template-areas: "about-me-title"
+                                "img" 
+                                "info";
+    }
+
+    #nav-headline {
+        font-size: 30px;
+        position:relative;
+        right:268px;
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    .navbar-nav{
+        position:relative;
+        right:280px;
+    }
+}
+
