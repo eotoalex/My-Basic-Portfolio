@@ -10,7 +10,7 @@ body {
     background-color:#8FBC8F;
     display:grid;
     grid-template-columns: 30% 70% ;
-    grid-template-rows: 30% 70% 10%;
+    grid-template-rows: 20% 60% 10%;
     grid-gap: 15px;
     padding: 15px;
     padding-bottom:120px;
@@ -144,47 +144,28 @@ body {
     }
 }
 
-/* @media (min-width:600px) and (max-width:966px) {
-     .navbar-nav{
-        position:relative;
-        right:45px;
-        }
+@media(min-width:767px) and (max-width:966px){
 
-    #nav-headline {
-        font-size: 38px;
-        position:relative;
-        right:-249px;
-        font-family: 'Vollkorn SC', serif;
-        }
-} */
-     
-/* @media (min-width:768px) and (max-width:1024px) {
-    
-    h1 {
-        font-size: 35px;
-        position:relative;
-        right:100%;
-    }
     body {
         background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
         width:80%;
         height:100%; 
+        margin:auto;
+        display:block;      
     }
     
     #grid {
-        margin-top: 2px;
         background-color:#8FBC8F;
         display:grid;
-        grid-template-rows: 5% ;
-        grid-template-columns: 90% ;
+        grid-template-columns: 30% 70% ;
+        grid-template-rows: 20% 70% 10%;
+        grid-gap: 15px;
+        padding: 15px;
+        padding-bottom:120px;
         border-radius:20%;
         margin-top:2%;
-        grid-gap: 0px;
-        padding: 0px;
-        grid-template-areas: "about-me-title"
-                                "img "
-                                "info";
-        justify-content: center;
+        grid-template-areas: "about-me-title about-me-title  "
+                                "img info";
     }
     
     .box {
@@ -193,13 +174,12 @@ body {
         align-items:center;
         color:black;
     }
-
+    
     .box1{
         display:flex;
         justify-content: center;
         align-items:center;
         grid-area:img;
-        padding:0px;
     }
         
     .box2{
@@ -207,12 +187,11 @@ body {
         justify-content: center;
         align-items:center;
         grid-area:info; 
-        padding:0;
     }
     
     #box-about-me {
-        align-items:center;
-        padding:0;
+        grid-area:about-me-title;
+        
     }
     
     #about-me {
@@ -231,38 +210,111 @@ body {
     }
     
     #alex-puello {
-        font-size: 30px;
+        font-size: 50px;
         position:relative;
         right:50px;
     }
     
     #nav-headline {
-        font-size: 40px;
+        font-size: 30px;
         position:relative;
-        right:45px;
+        right:35px;
         font-family: 'Vollkorn SC', serif;
     }
     
     .navbar-nav{
         position:relative;
-        right:20%;
+        right:0px;
     }
+
 }
 
-@media (min-width:415px) and (max-width:760px) {
-        
-}
+@media(min-width:600px) and (max-width:767px){
+    body {
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940://images.pexels.com/photos/1029609/pexels-photo-1029609.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        width:80%;
+        height:100%; 
+        margin:auto;
+        display:block;      
+    }
 
-@media (min-width:760px) and (max-width:1060px) {
+    h1 {
+        font-size:34px;
+    }
+    
+    #grid {
+        background-color:#8FBC8F;
+        display:grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 10% 30% 60%;
+        grid-gap: 15px;
+        padding: 15px;
+        padding-bottom:120px;
+        border-radius:20%;
+        margin-top:2%;
+        grid-template-areas: "about-me-title"
+                                "img" 
+                                "info";
+    }
+    
+    .box {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        color:black;
+    }
+    
+    .box1{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        grid-area:img;
+    }
         
-}
+    .box2{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        grid-area:info; 
+    }
+    
+    #box-about-me {
+        grid-area:about-me-title;
+        
+    }
+    
+    #about-me {
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    #name {
+        font-family: 'Vollkorn SC', serif;
+        position:relative;
+        left:300px;
+    }
+    
+    .nav-link {
+        position:relative;
+        left:-80px;
+    }
+    
+    #alex-puello {
+        font-size: 50px;
+        position:relative;
+        right:50px;
+    }
+    
+    #nav-headline {
+        font-size: 30px;
+        position:relative;
+        right:35px;
+        font-family: 'Vollkorn SC', serif;
+    }
+    
+    .navbar-nav{
+        position:relative;
+        right:0px;
+    }
 
-@media (min-width:1061px) and (max-width:1560px) {
-        
 }
-
-@media (min-width:1561px) and (max-width:1860px) {
-        
-}
-  */
 
