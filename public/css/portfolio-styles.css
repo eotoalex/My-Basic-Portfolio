@@ -101,8 +101,8 @@ body {
 
 @media(min-width:600px) and (max-width:966px){
     body {
-        background-image:url(images/pattern.jpg);         
-        }
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=650&w=940"); 
+    }
         
     #grid {
         background-color:#8FBC8F;
@@ -127,7 +127,7 @@ body {
 @media (min-width:415px) and (max-width:599px){
 
     body {
-        background-image:url(images/pattern.jpg);
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=650&w=940");
         width:90%;
         height:100%; 
         margin:auto;
@@ -146,45 +146,45 @@ body {
     }
 
     .navbar-nav{
-    position:relative;
-    right:-100px;
+        position:relative;
+        right:-100px;
     }
 
     #nav-headline {
-    font-size: 40px;
-    position:relative;
-    right:-400px;
-    font-family: 'Vollkorn SC', serif;
+        font-size: 40px;
+        position:relative;
+        right:-400px;
+        font-family: 'Vollkorn SC', serif;
     }
 
     .nav-link {
-    position:relative;
-    left:230px;   
+        position:relative;
+        left:230px;   
     }
 
     #alex-puello {
-    font-size: 20px;
-    position: relative;
-    right: 334px;
+        font-size: 20px;
+        position: relative;
+        right: 334px;
     }
 
     .bg-light{
-     height:150px;
+        height:150px;
     }
 
     .nav-link{
-    font-family: 'Vollkorn SC', serif;
+        font-family: 'Vollkorn SC', serif;
         }
 
     .subtitle {
-     font-family:'Vollkorn SC', serif;
+        font-family:'Vollkorn SC', serif;
     }
 }
 
 @media (min-width:0px) and (max-width:826px){
 
     body {
-        background-image:url(images/pattern.jpg);
+        background-image:url("https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=1&h=650&w=940");
         width:90%;
         height:100%; 
         margin:auto;
