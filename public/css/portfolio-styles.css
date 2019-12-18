@@ -17,6 +17,7 @@ body {
         padding-right:100px;
         border-radius:20%;
         margin-top:2%;
+        
     }
 
     .img {
@@ -52,6 +53,10 @@ body {
     .nav-link {
         position:relative;
         left:230px;  
+    }
+
+    .navbar {
+        border-radius:20%;
     }
 
     #bear-image{
@@ -252,6 +257,38 @@ body {
 }
 
 @media (min-width:300px) and (max-width:413px){
+    #grid {
+        background-color:#8FBC8F;
+        display:grid;
+        grid-template-rows: 30px;
+        grid-gap: 15px;
+        padding: 15px;
+        padding-bottom:120px;
+        padding-right:100px;
+        border-radius:20%;
+        margin-top:2%;
+        margin:auto;
+        display:block;
+        position:relative;
+        right:0px;
+    }
+
+    .img {
+        border-radius:20%;
+        height:150px;
+        width: 150px;
+    }
+    #cd.img {
+        border-radius:20%;
+        height:150px;
+        width: 150px;
+    }
+
+    .subtitle {
+        position:relative;
+        right:40px;
+    }
+
     .navbar-nav{
         position:relative;
         left:500;
@@ -267,4 +304,14 @@ body {
         position:relative;
         left:25px;
     }
+
+    .box {
+       margin:auto;
+       display:block;
+       position:relative;
+       left:80px;
+       margin-bottom:15px;
+    }
+    
 }
+

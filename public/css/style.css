@@ -78,6 +78,9 @@ body {
     position:relative;
     right:0px;
 }
+.navbar {
+    border-radius:20%;
+}
 
 @media (max-width:414px){
     body {
@@ -351,5 +354,6 @@ body {
         position:relative;
         right:280px;
     }
+
 }
 
