@@ -23,6 +23,10 @@ body {
     .img {
         border-radius:20%;
     }
+    #trekey{
+        background-color:white;
+        border-radius:50%;
+    }
 
     .box {
         display:flex;
